@@ -1,4 +1,5 @@
 @import 'styles-variables';
 @import '~bootstrap/scss/bootstrap-reboot';
 @import '~bootstrap/scss/bootstrap-grid';
+@import 'styles-reset'; // remove bootstrap outlines that don't play nicely with Angular Material links and buttons
 @import '@angular/material/prebuilt-themes/indigo-pink.css';
