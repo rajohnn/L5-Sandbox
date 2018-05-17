@@ -1,16 +1,16 @@
-<header></header>
+<header>
+    <mat-toolbar color="primary">Angular 6 Bootstrap 4 Example</mat-toolbar>
+</header>
 
-<div class="container content">
-    <!-- container centers content on large screens -->
+<section class="container">
     <div class="row">
-        <!-- responsive row has 12 columns by default -->
-        <div class="col-md-6">
-            <!-- uses 6 columns on medium and larger screens... -->
-        </div>
-        <div class="col-md-6">
-            <!-- uses 12 columns on smaller than medium screens -->
-        </div>
+        <mat-card class="col-md-6">1</mat-card>
+        <!-- we use mat-card instead of div -->
+        <mat-card class="col-md-6">2</mat-card>
+        <mat-card class="col-md-6 d-block d-lg-none">3</mat-card>
+        <!-- will be hidden on large screens -->
+        <mat-card class="col-md-6 d-block d-lg-none">4</mat-card>
     </div>
-</div>
+</section>
 
 <footer></footer>
